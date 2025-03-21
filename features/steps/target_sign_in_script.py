@@ -1,32 +1,3 @@
-Amazon logo $x("//i[@class='a-icon a-icon-logo']")
-driver.find_element(By.XPATH, "//i[@class='a-icon a-icon-logo']")
-
-Email field
-driver.find_element(By.ID, 'ap_email')
-
-Continue button
-driver.find_element(By.ID, 'continue')
-
-Conditions of use link $x("//*[text()='Conditions of Use']")
-driver.find_element(By.XPATH, "//*[text()='Conditions of Use']")
-
-Privacy Notice link  $x("//*[text()='Privacy Notice']")
-driver.find_element(By.XPATH, "//*[text()='Privacy Notice']")
-
-Need help link $x("//span[contains(text(), 'help')]")
-driver.find_element(By.XPATH, "//span[contains(text(), 'help')]")
-
-Forgot your password link
-driver.find_element(By.ID, 'auth-fpp-link-bottom')
-
-Other issues with Sign-In link
-driver.find_element(By.ID, 'ap-other-signin-issues-link')
-
-Create your Amazon account button
-driver.find_element(By.ID, 'createAccountSubmit')
-
-
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
